@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(134, 172, 150);
+    text-align: justify;
+    margin-right: 0%;
+    max-width: 100%;
+    font-size: 20px;
+    color: rgb(77, 75, 75);
+}
+
+header{
+
+}
+h1{
+    text-align: center;
+    padding: 5% 20% 5% 20%;
+    width: 60%;
+    background-color: rgb(70, 99, 82);
+    font-size: 3em;
+    transition: background-color 1s;
+    margin: 0%;
+}
+
+h1:hover{
+    background-color: rgb(51, 70, 59);
+}
+a:link {
+    text-decoration: none;   
+}
+
+th {
+    text-align: left;
+}
+
+footer{
+    background-color: rgb(70, 99, 82);
+    padding: 20px 5% 2%;
+    font-weight: bold;
+    text-align: right;
+    max-width: 100%;
+}
+
+.link-space {
+    padding: 2%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.description {
+    max-width: 65%;
+}
+
+.aside {
+    padding: 3% 2% 6%;
+    background-color: rgb(70, 99, 82);
+    float: right;
+    margin-right: 10%;
+    max-width: 15%;   
+}
+
+.aside-list {
+    font-size: 15px;
+    max-width: 35%;
+}
+
+.light-color{
+    color:rgb(189, 189, 189);
+}
+
+.link-light-color{
+    color:rgb(189, 189, 189);
+}
+
+.link-light-color:hover{
+    color: rgb(148, 144, 144);
+}
+.dark-color {
+    color: rgb(77, 75, 75);
+}
+
+.dark-color:hover {
+    cursor: pointer;
+    color:rgb(116, 113, 113)
+}
+
+.gif{
+    width: 100%;
+    padding: 15% 1px 0px;
+}
+
