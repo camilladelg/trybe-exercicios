@@ -6,8 +6,8 @@
     <title>HTML & CSS - Forms</title>
 </head>
 <body>
-    <form action="" method="GET">       
-        <fieldset>
+    <form action="" method="GET" id="form">       
+        <fieldset >
             <div>
                 <label for="nome-completo">Nome Completo:</label>
                 <input type="text" name="nome-completo" id="nome-completo" maxlength="40" required>
@@ -34,9 +34,9 @@
             </div>
             <div >
                 <label for="tipo">Tipo:</label>
-                    <input type="radio" value="" name="tipo" id="casa" required>
+                    <input type="radio" name="tipo" id="casa" required>
                     <label for="casa">Casa</label>
-                    <input type="radio" value="" name="tipo" id="apartamento" required>
+                    <input type="radio" name="tipo" id="apartamento" required>
                     <label for="apartamento">Apartamento</label>
             </div> 
         </fieldset>
@@ -58,9 +58,9 @@
                 <input type="text" name="data" id="data" autocomplete="off">
             </div>
         </fieldset>
-        <button id="botao-submeter" type="submit">Enviar</button>
-        <button type="reset">Limpar</button>
+        <button type="submit" id="botao-submeter">Enviar</button>
+        <button id="limpar">Limpar</button>
     </form>     
-<script src="script.js"></script>
+<script src="script.js" ></script>
 </body>
 </html>

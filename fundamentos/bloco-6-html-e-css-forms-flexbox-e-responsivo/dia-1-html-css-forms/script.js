@@ -14,18 +14,15 @@ function addEstados() {
 }
 addEstados();
 
-function validaDada() {
-    // event.preventDefault();
+function validaDada(event) {
+    event.preventDefault();
     let getData = document.getElementById('data');
     let textoData = getData.value;
-    console.log(textoData);
     let separaData = textoData.split("/");
     let dia = separaData[0];
-        console.log(dia);
+    console.log(dia);
     let mes = separaData[1];
-        console.log(mes);
     let ano = separaData[2];
-        console.log(ano);
 
     if (dia <= 0 || dia > 31) {
         alert("Dia inválido");
@@ -44,3 +41,20 @@ function clicaBotao() {
     getButton.addEventListener('click', validaDada)
 }
 clicaBotao()
+
+function limpar(event) {
+    event.preventDefault();
+    let getForm = document.querySelectorAll('#form input, select, textarea');
+    for (let i = 0; i < getForm.length; i += 1) {
+        console.log(getForm[i].value);
+        getForm[i].value = "";
+        getForm[i].checked = false;
+    }
+}
+
+function botaoLimpar() {
+    let getLimpar = document.getElementById('limpar');
+    getLimpar.addEventListener('click', limpar);
+
+}
+botaoLimpar()
