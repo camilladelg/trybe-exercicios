@@ -1,3 +1,4 @@
+/* Layout pequeno*/
 html {
     box-sizing: border-box;
   }
@@ -90,4 +91,11 @@ footer p {
     width: 100%;
     text-align: justify;
 
+}
+/* Layout médio */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 30px;
+        margin: 2%;
+    }
 }
