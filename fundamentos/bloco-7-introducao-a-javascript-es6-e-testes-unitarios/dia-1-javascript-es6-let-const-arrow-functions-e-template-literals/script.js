@@ -58,10 +58,6 @@ let contador = 0;
 // }
 // botao()
 
-
-
-
-
 const array = ["Android", "iOS", "Architecture", "Teach", "Run"];
 
 function buildSkillsPhrase (paramOne) {
