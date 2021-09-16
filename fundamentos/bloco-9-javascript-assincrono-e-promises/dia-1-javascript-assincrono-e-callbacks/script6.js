@@ -30,7 +30,6 @@ const sendMarsTemperature = (callback1, callback2) => {
       else callback2('Robot is busy');
     }, messageDelay());
   }
-  
  };
 
 // imprime "It is currently 47ºF at Mars", por exemplo, ou "Error getting temperature: Robot is busy"
