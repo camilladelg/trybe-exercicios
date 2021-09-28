@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(216, 216, 216, 0.897);
+}
+h1, p {
+    text-align: center;
+    height: 40px;
+    font-weight: bold;
+}
+p {
+    text-decoration: underline;
+}
+
+li:hover {  
+    background-color: rgb(87, 81, 81);    
+}
+
+li:active {
+    color: whitesmoke;
+}

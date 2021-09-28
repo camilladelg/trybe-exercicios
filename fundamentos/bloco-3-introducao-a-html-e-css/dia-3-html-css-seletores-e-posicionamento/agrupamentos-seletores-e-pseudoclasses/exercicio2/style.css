@@ -1,0 +1,55 @@
+body { 
+    background-color: rgb(179, 179, 179);
+    color: rgb(68, 67, 67);
+}
+
+p {
+    font-weight: bold;
+}
+
+div:hover {
+    border: 1px solid rgb(68, 67, 67);    
+}
+
+div:nth-of-type(1){
+    background-color: rgb(147, 206, 233);
+    width:200px;
+}
+div:nth-of-type(2){
+    background-color: rgb(176, 91, 233);
+    width:200px;
+}
+div:nth-of-type(3){
+    background-color: rgb(247, 231, 94);
+    width:200px;
+    height: 50px;
+}
+div:nth-of-type(4){
+    background-color:rgb(34, 155, 88);
+    width: 200px;   
+}
+div:nth-of-type(5){
+    background-color: rgb(245, 191, 221);
+    width:200px;  
+}
+
+div:nth-of-type(1) h3{
+    color: purple;
+}
+div:nth-of-type(2) h3{
+    color: green 
+}  
+div:nth-of-type(3) h3{
+    font-size: 20px;    
+}  
+div:nth-of-type(4) h3{
+    font-family: monospace;
+}  
+div:nth-of-type(5) h3{
+    font-style: italic
+}
+
+h3:nth-child(odd) {
+    font-style: italic;
+}
+
