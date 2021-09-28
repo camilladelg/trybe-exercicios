@@ -1,1 +1,1 @@
-Exercícios trybe
+Exercícios de fundamentos da trybe
