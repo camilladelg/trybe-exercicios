@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS - Forms</title>
+</head>
+<body>
+    <form action="" method="GET" id="form">       
+        <fieldset >
+            <div>
+                <label for="nome-completo">Nome Completo:</label>
+                <input type="text" name="nome-completo" id="nome-completo" maxlength="40" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" maxlength="50" required>
+            </div>
+            <div>  
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" id="cpf" maxlength="11" required>
+            </div>
+            <div>
+                <label for="">Endereço:</label>
+                <input type="text" name="endereco" id="endereco" maxlength="200" required>
+            </div>
+            <div>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" maxlength="28" required>
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado" class="estado" required>
+                    <option disabled selected value>Selecione seu estado</option>
+                </select> 
+            </div>
+            <div >
+                <label for="tipo">Tipo:</label>
+                    <input type="radio" name="tipo" id="casa" required>
+                    <label for="casa">Casa</label>
+                    <input type="radio" name="tipo" id="apartamento" required>
+                    <label for="apartamento">Apartamento</label>
+            </div> 
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="resumo-curriculo">Resumo do currículo</label>
+                <textarea name="resumo-curriculo" id="resumo-curriculo" cols="30" rows="10" maxlength="1000" required></textarea>
+            </div>
+            <div>
+                <label for="cargo">Cargo</label>
+                <input type="text" name="cargo" id="cargo" maxlength="40" required>            
+            </div>
+            <div>
+                <label for="">Descriçâo do cargo:</label>
+                <input type="text" name="descrição-do-cargo" id="descrição-do-cargo" required>
+            </div>
+            <div>
+                <label for="data">Data de inicio:</label>
+                <input type="text" name="data" id="data" autocomplete="off">
+            </div>
+        </fieldset>
+        <button type="submit" id="botao-submeter">Enviar</button>
+        <button id="limpar">Limpar</button>
+    </form>     
+<script src="script.js" ></script>
+</body>
+</html>
