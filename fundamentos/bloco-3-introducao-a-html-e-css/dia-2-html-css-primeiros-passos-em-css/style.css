@@ -1,0 +1,37 @@
+body {
+    font-size: 16px;
+}
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+ul {
+    background-color: papayawhip;
+    font-style: italic;
+    line-height: 1cm;
+}
+
+.list-style {
+    background-color: papayawhip;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;   
+    text-align: center;         
+}
+
+#amarelo {
+    background-color: yellow;
+}
+
+#vermelho {
+    background-color: red;            
+}
+
+#marrom {
+    background-color: brown;
+}
